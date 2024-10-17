@@ -20,7 +20,7 @@ AUFGABE:
  
 #### Bonusaufgabe:
  
-9. [ToDo: 1h Stunde laufen lassen]Am Ende des Durchlaufes soll auch ausgegeben werden, wie oft welche Gewinnkombination gezogen wurde.
+9. [erledigt -nur mit lotto_geld getestet, aslo kein voller Durchlauf]Am Ende des Durchlaufes soll auch ausgegeben werden, wie oft welche Gewinnkombination gezogen wurde.
 
 ## python design patterns implementations
 

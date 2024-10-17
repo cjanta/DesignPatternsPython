@@ -11,18 +11,16 @@ def lotto_spielen(eigene_zahlen, eigene_superzahl):
     print("Gewinnchance gem: faculty(49)/(faculty(43) + faculty(6)): ", print_chances()) 
     print("Deine gewählte Gewinnkombination:", *eigene_zahlen," Superzahl: " , eigene_superzahl)
 
-    lotto_geld = 1000000
+    lotto_geld = 100000
     lotto_ziehungen_count = 0
+    ziehungen = {}
     while(True):
-        lotto_ziehungen_count += 1
-        ziehungen = {
-            "ziehung": "Ford",
-            "model": "Mustang",
-            "year": 1964
-        }
-        lotto_ziehung = ziehung_6_aus_49()
+        lotto_ziehungen_count += 1   
+        lotto_ziehung = ziehung_6_aus_49() 
         kugeln = lotto_ziehung[0]
         super_kugel = lotto_ziehung[1]
+        dict_key = tuple(kugeln) + tuple([super_kugel])
+        ziehungen[dict_key] = ziehungen.get(dict_key, 0) + 1
         print(f"Ziehung: {lotto_ziehungen_count} beendet:", *kugeln, " Superzahl: " , super_kugel)
 
         if set(eigene_zahlen) == set(kugeln) and eigene_superzahl == super_kugel:
@@ -34,7 +32,13 @@ def lotto_spielen(eigene_zahlen, eigene_superzahl):
             print("Gewinnchance gem: faculty(49)/(faculty(43) + faculty(6)): ", print_chances()) 
             print("Deine Looserkombination:", *eigene_zahlen, eigene_superzahl, f"nach {lotto_ziehungen_count} versuchen")
             break
-    print("TODO: Bonusaufgabe -> jede ziehung? dictionary?")
+    print_kombinationen(ziehungen)
+
+def print_kombinationen(ziehungen):
+    print("\nHäufigkeit der gezogenen Kombinationen (> 1):")
+    for dict_key, value in ziehungen.items():
+        if (value > 1):
+            print(dict_key, "kam", value, "vor.")
 
 def faculty(it):
     fakultät = 1
