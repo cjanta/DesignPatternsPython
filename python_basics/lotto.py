@@ -9,9 +9,9 @@ def lotto_spielen(eigene_zahlen, eigene_superzahl):
         else:
             print("Zahl ungültig. Bitte gib eine andere Zahl ein.")
 
-    while not 1 <= eigene_superzahl <= 49:
+    while not 0 <= eigene_superzahl <= 9:
         temp_super = int(input("Bitte gib die Superzahl (0-9) ein: "))
-        if temp_super not in eigene_zahlen and 1 <= temp_super <= 49:
+        if  0 <= temp_super <= 9:
             eigene_superzahl = temp_super
         else:
             print("Superzahl ungültig. Bitte gib eine andere Zahl zwischen 1 und 49 ein.")
@@ -29,6 +29,8 @@ def lotto_spielen(eigene_zahlen, eigene_superzahl):
     if set(eigene_zahlen) == set(ziehungen) and eigene_superzahl == superzahl:
         print(f"\nGewonnen")
         print("Deine Gewinnkombination:", *eigene_zahlen, eigene_superzahl)
+    elif (eigene_superzahl == superzahl):
+        print("Höööy - feuchter Händedruck, die Superzahl ist richtig.")
     else:
         print("Leider verloren. Deine Looserkombination:",*eigene_zahlen, " Superzahl: " , eigene_superzahl)        
 
