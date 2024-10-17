@@ -11,7 +11,7 @@ def lotto_spielen(eigene_zahlen, eigene_superzahl):
     print("Gewinnchance gem: faculty(49)/(faculty(43) + faculty(6)): ", print_chances()) 
     print("Deine gewählte Gewinnkombination:", *eigene_zahlen," Superzahl: " , eigene_superzahl)
 
-    lotto_geld = 100000
+    lotto_geld = 1000000000
     lotto_ziehungen_count = 0
     ziehungen = {}
     while(True):
@@ -77,5 +77,5 @@ def readEigeneSuperzahl(eigene_superzahl):
 
 
 
-lotto_spielen([1,2,3,4,5,6],[10])
+lotto_spielen([1,2,3,4,5,6],[7])
 #lotto_spielen([],[]) 
