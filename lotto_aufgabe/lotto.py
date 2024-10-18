@@ -24,8 +24,7 @@ def lotto_spielen(eigene_zahlen, eigene_superzahl):
         gezogene_super_kugel = ziehung_superzahl()
         #add_ziehung_to_dicitionary(ziehungen_zu_anzahl, gezogene_kugeln, gezogene_super_kugel)
 
-        # Auswetung
-       
+        # Auswertung
         hits = treffer(eigene_zahlen,gezogene_kugeln)
         super_hit = super_treffer(eigene_superzahl, gezogene_super_kugel)
         print(f"Ziehung: {lotto_ziehungen_count} beendet:", *gezogene_kugeln, [gezogene_super_kugel], "Treffer:", hits, "Superzahl getroffen:", super_hit_to_print(super_hit) , "Gewinnklasse:", eval_winning_class(hits, super_hit))
