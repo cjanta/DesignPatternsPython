@@ -8,10 +8,11 @@ def lotto_spielen(eigene_zahlen, eigene_superzahl):
     while len(eigene_superzahl) < 1:
         readEigeneSuperzahl(eigene_superzahl)    
 
-    print("Gewinnchance gem: faculty(49)/(faculty(43) + faculty(6)): ", print_chances()) 
+    print("Gewinnchance gem: (faculty(49)/(faculty(43) + faculty(6))) * 10: ", print_chances_with_super()) 
     print("Deine gewählte Gewinnkombination:", *eigene_zahlen," Superzahl: " , eigene_superzahl)
 
-    lotto_geld = 1000000000
+    #lotto_geld = 1000 * 1000 # 1mio
+    lotto_geld = 1000 * 10 # 10 tausend
     lotto_ziehungen_count = 0
     ziehungen = {}
     while(True):
@@ -23,22 +24,25 @@ def lotto_spielen(eigene_zahlen, eigene_superzahl):
         ziehungen[dict_key] = ziehungen.get(dict_key, 0) + 1
         print(f"Ziehung: {lotto_ziehungen_count} beendet:", *kugeln, " Superzahl: " , super_kugel)
 
-        if set(eigene_zahlen) == set(kugeln) and eigene_superzahl == super_kugel:
+        if do_we_have_winner(eigene_zahlen, kugeln, eigene_superzahl, super_kugel):
             print(f"\nGewonnen")
             print("Deine Gewinnkombination:", *eigene_zahlen, eigene_superzahl, f"nach {lotto_ziehungen_count} versuchen")
             break   
         elif (lotto_ziehungen_count >= lotto_geld):
             print(f"\nBankrott nach {lotto_ziehungen_count} Versuchen")
-            print("Gewinnchance gem: faculty(49)/(faculty(43) + faculty(6)): ", print_chances()) 
+            print("Gewinnchance gem: (faculty(49)/(faculty(43) + faculty(6))) * 10: ", print_chances_with_super()) 
             print("Deine Looserkombination:", *eigene_zahlen, eigene_superzahl, f"nach {lotto_ziehungen_count} versuchen")
             break
     print_kombinationen(ziehungen)
+
+def do_we_have_winner(eigene_zahlen, kugeln, eigene_superzahl, super_kugel):
+    return set(eigene_zahlen) == set(kugeln) and eigene_superzahl == super_kugel
 
 def print_kombinationen(ziehungen):
     print("\nHäufigkeit der gezogenen Kombinationen (> 1):")
     for dict_key, value in ziehungen.items():
         if (value > 1):
-            print(dict_key, "kam", value, "vor.")
+            print(dict_key, "kam", value, "mal vor.")
 
 def faculty(it):
     fakultät = 1
@@ -46,10 +50,10 @@ def faculty(it):
         fakultät = fakultät * i
     return fakultät
 
-def print_chances():
+def print_chances_with_super():
     total_fac = faculty(49)
     r = faculty(43) + faculty(6)
-    return total_fac/r
+    return (total_fac/r) * 10
     
 
 def ziehung_6_aus_49():
@@ -76,6 +80,10 @@ def readEigeneSuperzahl(eigene_superzahl):
         print("Superzahl ungültig. Bitte gib eine andere Zahl (0-9) ein.")
 
 
+#test der gewinner ermittlung
+# print(do_we_have_winner([1,2,3,4,5,6],[1,2,3,4,5,6],[7],[7])) # true
+# print(do_we_have_winner([1,2,3,4,5,6],[1,2,3,4,5,6],[7],[6])) # false
+# print(do_we_have_winner([1,2,3,4,5,6],[1,2,37,4,5,6],[7],[6])) # false
 
 lotto_spielen([1,2,3,4,5,6],[7])
 #lotto_spielen([],[]) 
