@@ -61,9 +61,15 @@ def treffer(eigene_zahlen, kugeln):
     return len([zahl for zahl in kugeln if zahl in eigene_zahlen])
 
 def eval_winning_class(treffer, super_treffer):
+    # 6 == wc 2
+    # 5 == wc 4
+    # 4 == wc 6
+    # 3 == wc 8
     wc = ((6 - treffer) * 2) + 2
     if super_treffer:
          wc -= 1
+    if wc > 8:
+       return 0
     return wc
 
 def print_ziehungen_zu_anzahl(ziehungen_zu_anzahl): 
