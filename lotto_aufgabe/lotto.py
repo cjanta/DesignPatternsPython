@@ -83,7 +83,6 @@ def super_hit_to_print(super_hit):
         return "JA"
     return " NEIN"
 
-
 def save_ziehungen_zu_anzahl(ziehungen_zu_anzahl):
     with open('saved_ziehungen.pkl', 'wb') as f:
         pickle.dump(ziehungen_zu_anzahl, f) 
