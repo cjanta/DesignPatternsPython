@@ -16,7 +16,7 @@ def lotto_spielen(eigene_zahlen, eigene_superzahl):
     #lotto_geld = 1000 * 1000 # 1mio
     lotto_geld = 1000 * 100
     lotto_ziehungen_count = 0
-    #ziehungen_zu_anzahl = {} # Dictionary mit Tupel(1,2,3,4,5,6,7) zu 0..* zähler
+    #ziehungen_zu_anzahl = {} # Dictionary mit Tupel(1,2,3,4,5,6,7) zu 1..* zähler
 
     while(True):
         lotto_ziehungen_count += 1   
