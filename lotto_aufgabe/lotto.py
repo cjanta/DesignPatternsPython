@@ -38,12 +38,12 @@ def lotto_spielen(eigene_zahlen, eigene_superzahl):
             print("Deine Gewinnkombination:", *eigene_zahlen, eigene_superzahl, f"nach {lotto_ziehungen_count} versuchen")
             break   
         elif (lotto_ziehungen_count >= lotto_geld):
-            print(f"\nBankrott nach {lotto_ziehungen_count} Versuchen")
             print("Gewinnchance beträgt:", calculate_chances_with_super()) 
+            print(f"\nBankrott nach {lotto_ziehungen_count} Versuchen")
             print("Deine Looserkombination:", *eigene_zahlen, eigene_superzahl)
             break
         print(f"Lottoziehung Nr.:{lotto_ziehungen_count}", f"klassentreffer:{counter_class_hits}")
-    print("Anzahl Klassentreffer:",counter_class_hits)
+    print("Anzahl Klassentreffer:",counter_class_hits, " von", lotto_ziehungen_count)
     #save_ziehungen_zu_anzahl(ziehungen_zu_anzahl)
 
 def add_ziehung_to_dicitionary(ziehungen_zu_anzahl, gezogene_kugeln, gezogene_super_kugel):
