@@ -27,7 +27,9 @@ def lotto_spielen(eigene_zahlen, eigene_superzahl):
         # Auswertung
         hits = treffer(eigene_zahlen,gezogene_kugeln)
         super_hit = super_treffer(eigene_superzahl, gezogene_super_kugel)
-        print(f"Ziehung: {lotto_ziehungen_count} beendet:", *gezogene_kugeln, [gezogene_super_kugel], "Treffer:", hits, "Superzahl getroffen:", super_hit_to_print(super_hit) , "Gewinnklasse:", eval_winning_class(hits, super_hit))
+        wc = eval_winning_class(hits, super_hit)
+        if wc > -1:
+            print(f"Ziehung: {lotto_ziehungen_count} beendet:", *gezogene_kugeln, [gezogene_super_kugel], "Treffer:", hits, "Superzahl getroffen:", super_hit_to_print(super_hit) , wc_to_print(wc) )
 
         if do_we_have_winner(eigene_zahlen, gezogene_kugeln, eigene_superzahl, gezogene_super_kugel):
             print(f"\nWE HAVE A WINNER !!!11")
@@ -76,6 +78,13 @@ def print_ziehungen_zu_anzahl(ziehungen_zu_anzahl):
     for dict_key, value in ziehungen_zu_anzahl.items():
         if (value > 1):
             print(dict_key, "kam", value, "mal vor.")
+
+def wc_to_print(wc):
+    if wc > 0:
+        return "Gewinnklasse: " + str(wc)
+    return "Theo sagt Danke, viel Glück beim nächsten mal."
+
+
 
 def super_hit_to_print(super_hit):
     if super_hit:
