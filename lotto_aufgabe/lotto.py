@@ -30,7 +30,7 @@ def lotto_spielen(eigene_zahlen, eigene_superzahl):
         print(f"Ziehung: {lotto_ziehungen_count} beendet:", *gezogene_kugeln, [gezogene_super_kugel], "Treffer:", hits, "Superzahl getroffen:", super_hit_to_print(super_hit) , "Gewinnklasse:", eval_winning_class(hits, super_hit))
 
         if do_we_have_winner(eigene_zahlen, gezogene_kugeln, eigene_superzahl, gezogene_super_kugel):
-            print(f"\nGewonnen")
+            print(f"\nWE HAVE A WINNER !!!11")
             print("Deine Gewinnkombination:", *eigene_zahlen, eigene_superzahl, f"nach {lotto_ziehungen_count} versuchen")
             break   
         elif (lotto_ziehungen_count >= lotto_geld):
