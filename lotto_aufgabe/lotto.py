@@ -148,7 +148,7 @@ def readEigeneSuperzahl(eigene_superzahl):
 
 #TEST
 
-#lotto_spielen([1,2,3,4,5,6],[7]) 
+lotto_spielen([1,2,3,4,5,6],[7]) 
 #lotto_spielen([],[]) # mit userEingabe
 
 #print_ziehungen(load_ziehungen())
