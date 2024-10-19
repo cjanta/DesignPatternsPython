@@ -53,10 +53,11 @@ def super_treffer(eigene_superzahl, gezogene_super_kugel):
 def do_we_have_winner(eigene_zahlen, gezogene_kugeln, eigene_superzahl, super_kugel):
     return set(eigene_zahlen) == set(gezogene_kugeln) and super_treffer(eigene_superzahl, super_kugel)
 #test: def do_we_have_winner(eigene_zahlen, kugeln, eigene_superzahl, super_kugel):
-# print(do_we_have_winner([1,2,3,4,5,6],[1,2,3,4,5,6],[7],7)) # true
-# print(do_we_have_winner([1,2,3,4,5,6],[1,2,3,4,5,6],[7],6)) # false
-# print(do_we_have_winner([1,2,3,4,5,6],[10,20,37,40,15,16],[0],0)) # false
-# print(do_we_have_winner([1,2,3,4,5,6],[10,20,37,40,15,16],[1],0)) # false
+# print(do_we_have_winner([1,2,3,4,5,6],[1,2,3,4,5,6],[7],7)) # assert true
+# print(do_we_have_winner([1,2,3,4,5,6],[1,2,3,4,5,6],[7],6)) # assert false
+# print(do_we_have_winner([1,2,3,4,5,6],[10,20,37,40,15,16],[0],0)) # assert false
+# print(do_we_have_winner([1,2,3,4,5,6],[10,20,37,40,15,16],[1],0)) # assert false
+# print(do_we_have_winner([1,2,3,5,4,6],[2,1,3,4,6,5],[7],7)) # assert true
 
 def treffer(eigene_zahlen, kugeln):
     return len([zahl for zahl in kugeln if zahl in eigene_zahlen])
@@ -147,7 +148,7 @@ def readEigeneSuperzahl(eigene_superzahl):
 
 #TEST
 
-lotto_spielen([1,2,3,4,5,6],[7]) 
+#lotto_spielen([1,2,3,4,5,6],[7]) 
 #lotto_spielen([],[]) # mit userEingabe
 
 #print_ziehungen(load_ziehungen())
