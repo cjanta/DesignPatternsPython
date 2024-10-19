@@ -9,7 +9,7 @@ def lotto_spielen(eigene_zahlen, eigene_superzahl):
     while len(eigene_superzahl) < 1:
         readEigeneSuperzahl(eigene_superzahl)    
 
-    print("Gewinnchance gem: (49!/(43! + 6!)) * 10 beträgt:", calculate_chances_with_super()) 
+    print("Gewinnchance beträgt:", calculate_chances_with_super()) 
     print("Deine gewählte Gewinnkombination:", *eigene_zahlen," Superzahl: " , eigene_superzahl)
 
     #lotto_geld = 1000 * 1000 * 1000 # 1mia
@@ -17,6 +17,7 @@ def lotto_spielen(eigene_zahlen, eigene_superzahl):
     lotto_geld = 1000 * 100
     lotto_ziehungen_count = 0
     #ziehungen_zu_anzahl = {} # Dictionary mit Tupel(1,2,3,4,5,6,7) zu 1..* zähler
+    counter_class_hits = 0
 
     while(True):
         lotto_ziehungen_count += 1   
@@ -28,8 +29,9 @@ def lotto_spielen(eigene_zahlen, eigene_superzahl):
         hits = treffer(eigene_zahlen,gezogene_kugeln)
         super_hit = super_treffer(eigene_superzahl, gezogene_super_kugel)
         wc = eval_winning_class(hits, super_hit)
-        if wc > -1:
-            print(f"Ziehung: {lotto_ziehungen_count} beendet:", *gezogene_kugeln, [gezogene_super_kugel], "Treffer:", hits, "Superzahl getroffen:", super_hit_to_print(super_hit) , wc_to_print(wc) )
+        if wc > 0:
+            counter_class_hits += 1
+            #print(f"Ziehung: {lotto_ziehungen_count} beendet:", *gezogene_kugeln, [gezogene_super_kugel], "Treffer:", hits, "Superzahl getroffen:", super_hit_to_print(super_hit) , wc_to_print(wc) )
 
         if do_we_have_winner(eigene_zahlen, gezogene_kugeln, eigene_superzahl, gezogene_super_kugel):
             print(f"\nWE HAVE A WINNER !!!11")
@@ -37,10 +39,11 @@ def lotto_spielen(eigene_zahlen, eigene_superzahl):
             break   
         elif (lotto_ziehungen_count >= lotto_geld):
             print(f"\nBankrott nach {lotto_ziehungen_count} Versuchen")
-            print("Gewinnchance gem: (49!/(43! + 6!)) * 10 beträgt:", calculate_chances_with_super()) 
+            print("Gewinnchance beträgt:", calculate_chances_with_super()) 
             print("Deine Looserkombination:", *eigene_zahlen, eigene_superzahl)
             break
-    
+        print(f"Lottoziehung Nr.:{lotto_ziehungen_count}", f"klassentreffer:{counter_class_hits}")
+    print("Anzahl Klassentreffer:",counter_class_hits)
     #save_ziehungen_zu_anzahl(ziehungen_zu_anzahl)
 
 def add_ziehung_to_dicitionary(ziehungen_zu_anzahl, gezogene_kugeln, gezogene_super_kugel):
@@ -85,8 +88,6 @@ def wc_to_print(wc):
         return "Gewinnklasse: " + str(wc)
     return "Theo sagt Danke, viel Glück beim nächsten mal."
 
-
-
 def super_hit_to_print(super_hit):
     if super_hit:
         return "JA"
@@ -108,7 +109,7 @@ def faculty(it):
 
 def calculate_chances_with_super():
     total_fac = faculty(49)
-    r = faculty(43) + faculty(6)
+    r = faculty(43) * faculty(6)
     return (total_fac/r) * 10
 
 def ziehung_superzahl():
