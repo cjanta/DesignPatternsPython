@@ -14,7 +14,7 @@ def lotto_spielen(eigene_zahlen, eigene_superzahl):
 
     #lotto_geld = 1000 * 1000 * 1000 # 1mia
     #lotto_geld = 1000 * 1000 # 1mio
-    lotto_geld = 1000 * 100
+    lotto_geld = 1000 * 1000 * 10
     lotto_ziehungen_count = 0
     #ziehungen_zu_anzahl = {} # Dictionary mit Tupel(1,2,3,4,5,6,7) zu 1..* zähler
     counter_class_hits = 0
@@ -47,7 +47,7 @@ def lotto_spielen(eigene_zahlen, eigene_superzahl):
     #save_ziehungen_zu_anzahl(ziehungen_zu_anzahl)
 
 def add_ziehung_to_dicitionary(ziehungen_zu_anzahl, gezogene_kugeln, gezogene_super_kugel):
-    dict_key = tuple(gezogene_kugeln) + tuple([gezogene_super_kugel])
+    dict_key = tuple(sorted(gezogene_kugeln)) + tuple([gezogene_super_kugel])
     ziehungen_zu_anzahl[dict_key] = ziehungen_zu_anzahl.get(dict_key, 0) + 1
 
 def super_treffer(eigene_superzahl, gezogene_super_kugel):

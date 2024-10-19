@@ -17,7 +17,7 @@ root.title("Simple Tkinter App with Bootstrap")
 root.geometry("400x300")
 
 # Apply Bootstrap styling
-style = Style(theme='superhero')  # You can choose other themes like 'darkly', 'flatly', etc.
+style = Style(theme='superhero')
 
 # Create and place the widgets using ttkbootstrap widgets (ttk)
 title_label = ttk.Label(root, text="Welcome to the App!", font=("Helvetica", 16))
