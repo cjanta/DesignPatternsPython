@@ -67,7 +67,7 @@ def eval_winning_class(treffer, super_treffer):
     wc = ((6 - treffer) * 2) + 2
     if super_treffer:
          wc -= 1
-    if wc > 8:
+    if wc > 9:
        return 0
     return wc
 
