@@ -14,7 +14,7 @@ def lotto_spielen(eigene_zahlen, eigene_superzahl):
 
     #lotto_geld = 1000 * 1000 * 1000 # 1mia
     #lotto_geld = 1000 * 1000 # 1mio
-    lotto_geld = 1000 * 1000 * 10
+    lotto_geld = 1000 * 1000 * 100
     lotto_ziehungen_count = 0
     #ziehungen_zu_anzahl = {} # Dictionary mit Tupel(1,2,3,4,5,6,7) zu 1..* zähler
     counter_class_hits = 0
@@ -42,7 +42,7 @@ def lotto_spielen(eigene_zahlen, eigene_superzahl):
             print(f"\nBankrott nach {lotto_ziehungen_count} Versuchen")
             print("Deine Looserkombination:", *eigene_zahlen, eigene_superzahl)
             break
-        print(f"Lottoziehung Nr.:{lotto_ziehungen_count}", f"klassentreffer:{counter_class_hits}")
+        #print(f"Lottoziehung Nr.:{lotto_ziehungen_count}", f"klassentreffer:{counter_class_hits}")
     print("Anzahl Klassentreffer:",counter_class_hits, " von", lotto_ziehungen_count)
     #save_ziehungen_zu_anzahl(ziehungen_zu_anzahl)
 
