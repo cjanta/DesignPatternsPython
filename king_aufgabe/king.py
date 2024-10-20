@@ -7,13 +7,13 @@ class King:
     
 
 class Release_Act:
-    max_searches = 50
     max_subjects = 100
+    max_searches_per_subject = 50
     subs_to_take = 5
 
     def prisoner_search_id(self,prisoner, boxes):
         
-        for i in range(0,self.max_searches):
+        for i in range(0,self.max_searches_per_subject):
             #print(f"prisioner: {prisoner} searches {i+1}. time")
             drawn_box = boxes[random.randint(0, len(boxes)-1)]
             if drawn_box == prisoner:
@@ -44,12 +44,11 @@ class Release_Act:
             return False
         
         prisoners, boxes = self.create_lists()
-        #print(prisoners)
-        #print(sorted(boxes))
+
         print(f"Releasing {len(prisoners)} with max: {self.max_subjects}")
         for prisoner in prisoners:
             if not self.prisoner_search_id(prisoner, boxes):
-                print(f"Release failed because prisoner #{prisoner} didn't found his id with {self.max_searches} trys, hidden in {len(boxes)} boxes:/")
+                print(f"Release failed because prisoner #{prisoner} didn't found his id with {self.max_searches_per_subject} trys, hidden in {len(boxes)} boxes:/")
                 self.max_subjects -= self.subs_to_take
                 print(f"Remaining {self.max_subjects} prisoners.")
                 return False
