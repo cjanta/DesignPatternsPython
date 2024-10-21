@@ -13,8 +13,9 @@ def lotto_spielen(eigene_zahlen, eigene_superzahl):
     print("Deine gewählte Gewinnkombination:", *eigene_zahlen," Superzahl: " , eigene_superzahl)
 
     #lotto_geld = 1000 * 1000 * 1000 # 1mia
+    #lotto_geld = 1000 * 1000 * 100 # 100mio
     #lotto_geld = 1000 * 1000 # 1mio
-    lotto_geld = 1000 * 1000 * 100
+    lotto_geld = 1000 * 10
     lotto_ziehungen_count = 0
     #ziehungen_zu_anzahl = {} # Dictionary mit Tupel(1,2,3,4,5,6,7) zu 1..* zähler
     counter_class_hits = 0
@@ -116,17 +117,10 @@ def ziehung_superzahl():
     return random.randint(0, 9)
 
 def ziehung_6_aus_49():
-    kugeln = []
-    for i in range(1,50):
-        kugeln.append(i)
-    
+    kugeln = list(range(1,50))   
     gezogene_nummern = []
-    for i in range(0,6):
-        next = random.randint(0, len(kugeln)-1)     
-        kugel = kugeln[next]
-        kugeln.remove(kugel)
-        gezogene_nummern.append(kugel)
-
+    for i in range(6):  
+        gezogene_nummern.append(kugeln.pop(random.randint(0, len(kugeln)-1)))
     return gezogene_nummern
 
 def readEigeneZahlen(eigene_zahlen):

@@ -7,7 +7,7 @@ class Release_Act:
     highest_prisoner = 0
 
     def flip_coin(self):
-        return  random.randint(0,1) == 1
+        return random.randbool()
 
     def prisoner_search_id(self,prisoner, boxes): 
         drawn_boxes = set()   
