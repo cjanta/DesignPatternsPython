@@ -6,17 +6,18 @@ class Release_Act:
     subs_to_take = 5
     highest_prisoner = 0
 
-    def prisoner_search_id(self,prisoner, boxes):
-        return random.randint(0,1) == 1
-    # simuliert mit boxen 
-        # for i in range(0,self.max_searches_per_subject):
-        #     #print(f"prisioner: {prisoner} searches {i+1}. time")   
-        #     drawn_box = random.randint(0, len(boxes)-1)                        
-        #     if drawn_box == prisoner:
-        #         #print(f"prisioner: {prisoner} found number")
-        #         boxes.remove(drawn_box)
-        #         return True
-        # return False
+    def flipp_coin(self):
+        return  random.randint(0,1) == 1
+
+    def prisoner_search_id(self,prisoner, boxes):      
+        for i in range(0,self.max_searches_per_subject):
+            #print(f"prisioner: {prisoner} searches {i+1}. time")   
+            drawn_box = random.randint(0, len(boxes)-1)                        
+            if drawn_box == prisoner:
+                #print(f"prisioner: {prisoner} found number")
+                boxes.remove(drawn_box)
+                return True
+        return False
 
     def create_lists(self):
         prisoners = []
