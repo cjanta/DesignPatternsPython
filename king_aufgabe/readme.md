@@ -1,6 +1,14 @@
+# summary:<br>
 
-source_text:
+| Name | Anzahl |
+|:------|:--------:|
+| King | 1 |
+| Prisoners | 100
+| Boxes | 100
+| Trys | 50
 
+# source_text:
+```
 Hier eine weitere Aufgabe.
  
 Ein König hatte einst 100 Gefangene.
@@ -42,3 +50,4 @@ Vielen Dank und allen denkbaren Erfolg. Und übrigens... Wiederhole diese Testre
 10_000 mal und berichte, wie oft in dieser Simulation die Gefangenen alle befreit werden.
  
 Viel Erfolg Digital Cowgirls 'n -boys...
+```
