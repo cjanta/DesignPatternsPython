@@ -6,16 +6,22 @@ class Release_Act:
     subs_to_take = 5
     highest_prisoner = 0
 
-    def flipp_coin(self):
+    def flip_coin(self):
         return  random.randint(0,1) == 1
 
-    def prisoner_search_id(self,prisoner, boxes):      
-        for i in range(0,self.max_searches_per_subject):
-            #print(f"prisioner: {prisoner} searches {i+1}. time")   
-            drawn_box = random.randint(0, len(boxes)-1)                        
+    def prisoner_search_id(self,prisoner, boxes): 
+        drawn_boxes = set()   
+        for i in range(0,self.max_searches_per_subject): 
+            drawn_box = random.randint(0, len(boxes)-1)  
+
+
+            while drawn_box in drawn_boxes: 
+                drawn_box = random.randint(0, len(boxes)-1)  
+
+            drawn_boxes.add(drawn_box)                       
             if drawn_box == prisoner:
                 #print(f"prisioner: {prisoner} found number")
-                boxes.remove(drawn_box)
+                #boxes.remove(drawn_box) #veringert die anzahl boxen wenn ein find
                 return True
         return False
 
@@ -38,10 +44,8 @@ class Release_Act:
     def release_prisoners(self):
         if self.max_subjects <= 0:
             print("All prisoners aqquired by the King!")
-            return False
-        
+            return False    
         prisoners, boxes = self.create_lists()
-
         #print(f"Releasing {len(prisoners)} with max: {self.max_subjects}")
         for prisoner in prisoners:
             if not self.prisoner_search_id(prisoner, boxes):
@@ -50,8 +54,7 @@ class Release_Act:
                 #print(f"Remaining {self.max_subjects} prisoners.")
                 return False
             elif self.highest_prisoner < prisoner:
-                self.highest_prisoner = prisoner
-  
+                self.highest_prisoner = prisoner 
         return True
 
 class King:
@@ -60,15 +63,13 @@ class King:
     act_component = Release_Act()
     max = 42 + 1000 * 10
 
-
-    def celebrate_birthday(self):
+    def celebrate_birthdays(self):
         while self.age < self.max:
             self.age += 1
             print(f"Törröö! The King: {self.name} at age {self.age}. Celebrates. The prisoners choose their destiny the {self.age-42}th time.")
             if self.act_component.release_prisoners():
                 print(f"Finally! The King: {self.name} at his {self.age}. birthday released {self.act_component.max_subjects} prisoners. The End.")
-                return
-                       
+                return                     
         print(f"highest chain: {self.act_component.highest_prisoner}")
                 
 
@@ -77,6 +78,6 @@ class King:
 # TODO: Thema noch nicht ganz getroffen es soll dann 10.000 mal geburtstag simuliert werden also immer 100 subs die 100 boxen durchsuchen.
 # Das wird dann viel unwahrscheinlicher. 2hoch100
 king = King()
-king.celebrate_birthday()
+king.celebrate_birthdays()
 
 
