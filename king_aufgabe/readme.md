@@ -5,7 +5,7 @@
 | King | 1 |
 | Prisoners | 100
 | Boxes | 100
-| Trys | 50
+| Trys / Prisoner | 50
 
 # source_text:
 ```
