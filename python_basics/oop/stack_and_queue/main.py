@@ -8,7 +8,7 @@ data.push(3)
 print(data.data_stack)
 
 poped_element = data.pop()
-print("poped:",poped_element )
+print("poped:", poped_element)
 
 data = Queue_Impl()
 data.enqueue(1)
@@ -17,4 +17,4 @@ data.enqueue(3)
 print(data.data_queue)
 
 dequed_element = data.dequeue()
-print("dequeued:",dequed_element )
+print("dequeued:", dequed_element)

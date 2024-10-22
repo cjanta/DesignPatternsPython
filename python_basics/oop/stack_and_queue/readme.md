@@ -16,3 +16,5 @@ Bei der Entnahme wird das erste Item entnommen. *[dequeue]*
 
 
 # Aufgabe: Stack und Queue Klassen erstellen
+[erledigt] im Ordner oop/stack_and_queue/main.py  
+bzw. Queue.py und Stack.py
