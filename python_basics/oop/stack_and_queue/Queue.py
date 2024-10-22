@@ -1,12 +1,10 @@
 
-class Queue_Impl:
-    def __init__(self):
-        self.data_queue = []
+class Queue(list):
 
-    def enqueue(self, element_to_enqueue):
-        self.data_queue.append(element_to_enqueue)
+    def enqueue(self, item):
+        super().append(item)
 
     def dequeue(self):
-        if(len(self.data_queue) > 0):
-            return self.data_queue.pop(0)
+        if(len(self) > 0):
+            return super().pop(0)
         return None

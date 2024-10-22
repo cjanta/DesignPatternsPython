@@ -1,20 +1,22 @@
-from Stack import Stack_Impl
-from Queue import Queue_Impl
+from Stack import Stack
+from Queue import Queue
 
-data = Stack_Impl()
+#########Stack
+data = Stack()
 data.push(1)
 data.push(2)
 data.push(3)
-print(data.data_stack)
+print(data)
 
 poped_element = data.pop()
 print("poped:", poped_element)
 
-data = Queue_Impl()
+######### Queue
+data = Queue()
 data.enqueue(1)
 data.enqueue(2)
 data.enqueue(3)
-print(data.data_queue)
+print(data)
 
 dequed_element = data.dequeue()
 print("dequeued:", dequed_element)
