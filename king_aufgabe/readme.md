@@ -9,7 +9,8 @@
 
 ## Wahrscheinlichkeit  
  >1zu2 hoch n=100   
- >2exp(100)
+ >2exp(100)  
+ >#klugschiss nicht soviele möglichkeiten wie ipv6 mit 2exp(128) ~340 Sextillionen Adressen
 
 # source_text:
 ```
