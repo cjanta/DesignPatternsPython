@@ -7,6 +7,10 @@
 | Boxes | 100
 | Trys / Prisoner | 50
 
+## Wahrscheinlichkeit  
+ >1zu2 hoch n=100   
+ >2exp(100)
+
 # source_text:
 ```
 Hier eine weitere Aufgabe.
