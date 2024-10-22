@@ -13,3 +13,6 @@ Das neue Item wird an die letzte position eingefügt. *[enqueue]*
 Bei der Entnahme wird das erste Item entnommen. *[dequeue]*  
 
 **Das am längsten wartende Item wird zuerst entfernt!**
+
+
+# Aufgabe: Stack und Queue Klassen erstellen
