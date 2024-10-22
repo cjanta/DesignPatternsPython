@@ -1,7 +1,7 @@
 from Stack import Stack
 from Queue import Queue
 
-#########Stack
+######### Stack
 data = Stack()
 data.push(1)
 data.push(2)

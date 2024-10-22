@@ -5,4 +5,6 @@ class Stack(list):
         super().append(item)
 
     def pop(self):
-        return super().pop()
+        if(len(self) > 0):
+            return super().pop()
+        return None
