@@ -6,6 +6,7 @@ class Netcalc:
         self.ipv4_dec = ipv4_dec
         self.cidr = cidr
         print("Ipv4:",ipv4_dec, "CIDR:",cidr)
+        self.__find_network_id(ipv4_dec)
         self.network_id = (0,0,0,0)
         self.netmask_decimal = (0,0,0,0)
         self.network_broadcast = (0,0,0,0)
@@ -14,6 +15,7 @@ class Netcalc:
 
     def __find_network_id(self, ipv4_dec):
         #convert ipv4_dec to binary
+        print(bin(ipv4_dec[0]))
         pass
 
 
