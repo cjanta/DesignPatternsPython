@@ -1,26 +1,28 @@
-
+import ipaddress
 
 class Netcalc:
 
-    def __init__(self, ipv4_dec, cidr):
+    def __init__(self, ipv4_dec :str, cidr :str):
         self.ipv4_dec = ipv4_dec
         self.cidr = cidr
         print("Ipv4:",ipv4_dec, "CIDR:",cidr)
-        self.__find_network_id(ipv4_dec)
-        self.network_id = (0,0,0,0)
-        self.netmask_decimal = (0,0,0,0)
-        self.network_broadcast = (0,0,0,0)
-        self.sum_hosts = 0
-        self.usable_host_ips = [(0,0,0,0), (0,0,0,0)]
+        self.network = ipaddress.IPv4Network(ipv4_dec+ "/" + cidr, strict=False)
+        self.__display_network()
+        
 
-    def __find_network_id(self, ipv4_dec):
-        #convert ipv4_dec to binary
-        print(bin(ipv4_dec[0]))
-        pass
-
-
-
+    def __ipv4_to_binary(self, ipv4_dec):
+        return '.'.join([f'{int(octet):08b}' for octet in str(ipv4_dec).split('.')])
+    
+    def __display_network(self):
+        network_bin = self.__ipv4_to_binary(self.network.network_address)
+        netmask_bin = self.__ipv4_to_binary(self.network.netmask)
+        broadcast_bin = self.__ipv4_to_binary(self.network.broadcast_address)
+        print(f"Network: {self.network.network_address} ({network_bin})")
+        print(f"Netmask: {self.network.netmask} ({netmask_bin})")
+        print(f"Broadcast address: {self.network.broadcast_address} ({broadcast_bin})")
+        print(f"Number of hosts: {self.network.num_addresses - 2}")
+        print(f"Usable hosts range: {list(self.network.hosts())[0]} - {list(self.network.hosts())[-1]}")
 
 
 #Test
-netcalc = Netcalc((192,168,132,197), 24)
+netcalc = Netcalc("192.168.1.124", "24")
