@@ -60,19 +60,15 @@ class BitMaster3000:
 
 #Test setBit, clearBit and toggleBit
 num = BitMaster3000.max
-#num = 0b00000000000000000000000000000000     
   
-# Set the 1st bit
 # num = BitMaster3000.set_bit(num, 2)
-# print(bin(num))  # Output: 0b101011
+# print(bin(num)) 
 
-# Clear the 4th bit
 for i in range(0,32):
     num = BitMaster3000.clear_bit(num, i)
-    #print(bin(num))  # Output: 0b10011
+    #print(bin(num))  
     print(f"{num:32b}")
 
-# # Toggle the 5th bit
 # num = BitMaster3000.toggle_bit(num, 31)
-# print(bin(num))  # Output: 0b111011
+# print(bin(num)) 
 
