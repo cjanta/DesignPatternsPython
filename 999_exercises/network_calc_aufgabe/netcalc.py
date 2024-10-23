@@ -5,7 +5,8 @@ class Netcalc:
     def __init__(self, ipv4_dec :str, cidr :str):
         self.ipv4_dec = ipv4_dec
         self.cidr = cidr
-        print("Ipv4:",ipv4_dec, "CIDR:",cidr)
+        print("Ipv4:",ipv4_dec, "CIDR:", cidr, int  )
+
         self.network = ipaddress.IPv4Network(ipv4_dec+ "/" + cidr, strict=False)
         self.__display_network()
         
@@ -25,4 +26,53 @@ class Netcalc:
 
 
 #Test
-netcalc = Netcalc("192.168.1.124", "24")
+#netcalc = Netcalc("192.168.1.124", "24")
+
+print("**************************************************************")
+
+class BitMaster3000:
+    #33bit
+    max = 0b11111111111111111111111111111111
+    min = 0b00000000000000000000000000000000
+
+    def read_bit(num, position):
+        # Shift 1 to the left by 'position' bits and use bitwise AND
+        return (num >> position) & 1
+    
+    def set_bit(num, position):
+        # Use bitwise OR to set the bit at 'position'
+        return num | (1 << position)
+    
+    def clear_bit(num, position):
+        # Use bitwise AND with the inverse (~) of the mask to clear the bit
+        return num & ~(1 << position)
+    
+    def toggle_bit(num, position):
+        # Use bitwise XOR to toggle the bit
+        return num ^ (1 << position)
+
+
+
+# Test readBit
+# num = 0b101010  # 42 in decimal
+# position = 2    # from left
+# print(BitMaster3000.read_bit(num, position))  # Output: 1 (the 4th bit is 1)
+
+#Test setBit, clearBit and toggleBit
+num = BitMaster3000.max
+#num = 0b00000000000000000000000000000000     
+  
+# Set the 1st bit
+# num = BitMaster3000.set_bit(num, 2)
+# print(bin(num))  # Output: 0b101011
+
+# Clear the 4th bit
+for i in range(0,32):
+    num = BitMaster3000.clear_bit(num, i)
+    #print(bin(num))  # Output: 0b10011
+    print(f"{num:32b}")
+
+# # Toggle the 5th bit
+# num = BitMaster3000.toggle_bit(num, 31)
+# print(bin(num))  # Output: 0b111011
+
