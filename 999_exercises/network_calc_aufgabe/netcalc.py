@@ -26,7 +26,7 @@ class Netcalc:
 
 
 #Test
-#netcalc = Netcalc("192.168.1.124", "24")
+netcalc = Netcalc("192.168.1.124", "24")
 
 print("**************************************************************")
 
@@ -55,8 +55,8 @@ class BitMaster3000:
 
 # Test readBit
 # num = 0b101010  # 42 in decimal
-# position = 2    # from left
-# print(BitMaster3000.read_bit(num, position))  # Output: 1 (the 4th bit is 1)
+# position = 2    
+# print(BitMaster3000.read_bit(num, position))  # Output: 1 (the 4th bit from left is 1)
 
 #Test setBit, clearBit and toggleBit
 num = BitMaster3000.max
@@ -67,7 +67,7 @@ num = BitMaster3000.max
 for i in range(0,32):
     num = BitMaster3000.clear_bit(num, i)
     #print(bin(num))  
-    print(f"{num:32b}")
+    print(f"{num:b}".zfill(32))
 
 # num = BitMaster3000.toggle_bit(num, 31)
 # print(bin(num)) 
