@@ -1,0 +1,25 @@
+class A():
+    print("Initial")
+
+    infotext = "Das ist ein Infotext!"
+
+    def __new__(cls):
+        print("Superklasse")
+        return super().__new__(cls)
+    
+    def sag_tschuessle(self):
+        print("Auf Wiedersehen")
+    
+class B(A):
+    def sag_tschuessle(self):
+        print("Hanoi Dschuessle")
+
+
+b = B()
+a = A()
+B()
+A()
+B()
+
+a.sag_tschuessle()
+b.sag_tschuessle()
