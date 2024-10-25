@@ -26,9 +26,9 @@ class Netcalc:
 
 
 #Test
-#netcalc = Netcalc("192.168.1.124", "24")
+netcalc = Netcalc("192.168.1.124", "24")
 
-print("**************************************************************")
+print("*******************Experiment*******************************************")
 
 class BitMaster3000:
     #33bit
@@ -66,8 +66,8 @@ num = BitMaster3000.max
 
 for i in range(0,32):
     num = BitMaster3000.clear_bit(num, i)
-    #print(bin(num))  
-    print(f"{num:32b}")
+    #print(str(bin(num)))  
+    print(f"{num:b}".zfill(32))
 
 # num = BitMaster3000.toggle_bit(num, 31)
 # print(bin(num)) 
