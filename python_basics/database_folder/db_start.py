@@ -16,11 +16,3 @@ for data in datasets:
     print(data)
 
 conn.close()
-
-
-# DQL > Data Query Language
-# DML > Data Manipulation Language
-# TCL > Transaction Control Language
-# DDL > Data Definition Language
-# DCL > Data Control Language (nicht in SQLite)
-# SQL > Structured Query Language
