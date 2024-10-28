@@ -1,5 +1,4 @@
 
-
 def round_to_two_digits(float_in_str : str):
     value = float(float_in_str) * 100 
     if value > 0:
@@ -44,26 +43,39 @@ def check_custom_formats(input :str):
     if is_float(input):
         return input
 
-    print("needed formatting")
+    #print("needed formatting")
     formated_input = ""
     for i in range(0, len(input)):
         if is_number(input[i]) or i == index_c:
             formated_input += input[i]
-
-
     return formated_input   
-#print(check_custom_formats("1.000.000,0"))
     
-def convert(euro_string : str):
+def convert_euro_dm(euro_string : str):
     if not is_float(euro_string):
         euro_string = check_custom_formats(euro_string)
     
     print("€",round_to_two_digits(euro_string))
     dm_to_1k_euro = 1955.83
     result = dm_to_1k_euro * float(euro_string) / 1000
-    return str(round_to_two_digits(result)) + ' DM'
+    return str(round_to_two_digits(result))
+
+def convert_dm_euro(dm_string : str):
+    if not is_float(dm_string):
+        dm_string = check_custom_formats(dm_string)
+    
+    print("DM",round_to_two_digits(dm_string))
+    dm_to_1k_euro = 1955.83
+    result =  float(dm_string) * (dm_to_1k_euro / 1000) 
+    return str(round_to_two_digits(result)) 
+
+def convert(currency_string :str):
+    if currency_string.__contains__("EU"):
+        return convert_euro_dm(currency_string) , "DM"
+    elif currency_string.__contains__("DM"):
+        return convert_dm_euro(currency_string), "€"
 
 #input_string = input("Bitte einen Betrag in € angeben um diesen in DM umrechnen zu lassen:")
 #input_string = "1.000.000,569" #expected: 1000000,57
-input_string = '100,7777' #expected: 100,78
+input_string = '100,7777 EU' 
+input_string = '100,00 DM'
 print(convert(input_string))
