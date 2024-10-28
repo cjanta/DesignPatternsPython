@@ -1,3 +1,4 @@
+import sys
 
 def round_to_two_digits(float_in_str : str):
     value = float(float_in_str) * 100 
@@ -74,8 +75,10 @@ def convert(currency_string :str):
     elif currency_string.__contains__("DM"):
         return convert_dm_euro(currency_string), "€"
 
-#input_string = input("Bitte einen Betrag in € angeben um diesen in DM umrechnen zu lassen:")
-#input_string = "1.000.000,569" #expected: 1000000,57
-input_string = '100,7777 EU' 
-input_string = '100,00 DM'
-print(convert(input_string))
+# TEST
+if len(sys.argv) == 3:
+    print(convert(sys.argv[1]+sys.argv[2]))
+elif len(sys.argv) == 2:
+    print(convert(sys.argv[1]+"EU"))
+else:
+    print(convert(input("Bitte einen Betrag und eine Währung ('EU' oder 'DM' oder '' für default 'EU') angeben um diesen umrechnen zu lassen.\n[>>>] ")))
