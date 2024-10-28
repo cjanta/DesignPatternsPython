@@ -15,6 +15,16 @@ class Zahlenratespiel():
         except Exception as e:
             print(e)
             return True
+        
+    def is_nan_classic(self, value):
+        # value muss zeichenweise iteriert werden
+        for char in value:
+            print("Zeichen", char, "ASCII", ord(char))
+            if (ord(char) < 48) or (ord(char) > 57):
+                print(value, "ist keine Nummer!")
+                return True
+        print(value, "ist eine Nummer!")
+        return False 
 
     def mein_tipp(self, tipp):
         if tipp is None or tipp == '':
@@ -28,4 +38,5 @@ class Zahlenratespiel():
         elif tipp > self.gemerkte_nummer:
             return -1
         return 0
-    
+game = Zahlenratespiel()   
+game.is_nan_classic("!")
