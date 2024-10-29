@@ -10,10 +10,11 @@
 - Leitner Lernsystem KK
 - Fragetypen(Multiplechoice (geschuffelte Antworten), berechnet, offen-Eigenverantwortlich)
 - einfache userunterscheidung
+- gamification (richtige Karten pro Woche, Tagesbelohnungen, antiprogessiv: anfangs schnell Belohnung, später immmer weniger)
 
-### Modul II
+### Modul II (FUTURE)
 - Kahoot - mehrere userines beantworten eine Frage, versus (Modul II)
-- Useranmeldung (Security) ist future
+- Useranmeldung (Security-Modul)
 
 
 ## Lastenheft
