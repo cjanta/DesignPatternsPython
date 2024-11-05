@@ -1,7 +1,12 @@
 import doctest
 
 
+
 def quadriere(zahl):
+    # Achtung, keine Leerzeichen am Ende der Zeilen sonst liest doctest die Tests falsch
+    # Also keine leading und trailing spaces. Genau nur so schreiben wie folgt:
+    # >>> quadriere(2)
+    # 4
     """
     Quadriert die Zahl 'zahl' und gibt den Wert zurück
     
