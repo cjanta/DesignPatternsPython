@@ -1,69 +1,69 @@
-Neu hier?
-Ausbildungsbegleitung
-Beliebte Seiten
-Podcast
-Blog
-Impressum
-Datenschutz
 Kontakt
 Mögliche Themen von Teil 1 der gestreckten Abschlussprüfung (GAP) in den IT-Berufen
 
 Prüfungsthemen für Teil 1 der gestreckten Abschlussprüfung (GAP)
 
-Inhaltsverzeichnis
-Projektmanagement
-Methoden und Modelle
-Teamarbeit
-Wirtschaftlichkeit
-Märkte und Bedarfe
-Kundenberatung/Präsentieren
-Marketing
-Angebotsvergleich
-Hardware
-Netzwerktechnik
-Multimedia
-Internet
-Software
-Betriebssysteme
-Softwareentwicklung
-Qualitätssicherung
-IT-Sicherheit
-Datenschutz
-Verträge
-Leistungserbringung
-Change Management
-Themenbereich der Prüfung
+# Inhaltsverzeichnis
+* Projektmanagement
+* Methoden und Modelle
+* Teamarbeit
+* Wirtschaftlichkeit
+* Märkte und Bedarfe
+* Kundenberatung/Präsentieren
+* Marketing
+* Angebotsvergleich
+* Hardware
+* Netzwerktechnik
+* Multimedia
+* Internet
+* Software
+* Betriebssysteme
+* Softwareentwicklung
+* Qualitätssicherung
+* IT-Sicherheit
+* Datenschutz
+* Verträge
+* Leistungserbringung
+* Change Management
+
+# Themenbereich der Prüfung
 
 
 Im Prüfungsbereich Einrichten eines IT-gestützten Arbeitsplatzes hat der Prüfling nach §9 FIAusbV nachzuweisen, dass er in der Lage ist,
 
-Kundenbedarfe zielgruppengerecht zu ermitteln,
-Hard- und Software auszuwählen und ihre Beschaffung einzuleiten,
-einen IT-Arbeitsplatz zu konfigurieren und zu testen und dabei die Bestimmungen und die betrieblichen Vorgaben zum Datenschutz, zur IT-Sicherheit und zur Qualitätssicherung einzuhalten,
-Kunden und Kundinnen in die Nutzung des Arbeitsplatzes einzuweisen und
+- Kundenbedarfe zielgruppengerecht zu ermitteln,
+- Hard- und Software auszuwählen und ihre Beschaffung einzuleiten,
+-einen IT-Arbeitsplatz zu konfigurieren und zu testen und dabei die Bestimmungen und die betrieblichen Vorgaben zum Datenschutz, zur IT-Sicherheit und zur Qualitätssicherung einzuhalten,
+- Kunden und Kundinnen in die Nutzung des Arbeitsplatzes einzuweisen und
 die Leistungserbringung zu kontrollieren und zu protokollieren.
-Prüfungsform
+# Prüfungsform
 
-Schriftliche Abschlussprüfung
-vier ungebundene Aufgaben
-je Aufgabe kann es zwischen 20 und 30 Punkten geben
-Gesamtzahl der möglichen Punkte: 100 Punkte
-Prüfungstermine sind Frühjahr und Herbst
-Relevante Lernfelder der Berufsschule
+## Schriftliche Abschlussprüfung
+- 4 (vier)  ungebundene Aufgaben
+- je Aufgabe kann es zwischen 20 und 30 Punkten geben
+- Gesamtzahl der möglichen Punkte: 100 Punkte
+- Prüfungstermine sind **Frühjahr** und Herbst
 
-LF 1: Das Unternehmen und die eigene Rolle im Betrieb beschreiben
-LF 2: Arbeitsplätze nach Kundenwunsch ausstatten
-LF 3: Clients in Netzwerke einbinden
-LF 4: Schutzbedarfsanalyse im eigenen Arbeitsbereich durchführen
-LF 5: Software zur Verwaltung von Daten anpassen
-LF 6: Serviceanfragen bearbeiten
-Konkrete Prüfungsthemen
+# Relevante Lernfelder der Berufsschule
+
+* LF 1: Das Unternehmen und die eigene Rolle im Betrieb beschreiben
+* LF 2: Arbeitsplätze nach Kundenwunsch ausstatten
+* LF 3: Clients in Netzwerke einbinden
+* LF 4: Schutzbedarfsanalyse im eigenen Arbeitsbereich durchführen
+* LF 5: Software zur Verwaltung von Daten anpassen
+* LF 6: Serviceanfragen bearbeiten
+# Konkrete Prüfungsthemen
 Die Oberpunkte entsprechen den Teilen des Ausbildungsberufsbildes laut Ausbildungsrahmenplan (z.B. FIAusbV).
+
+
 Die ersten Stichpunkte sind die laut Ausbildungsrahmenplan in den ersten 18 Monaten der Ausbildung zu vermittelnden Fertigkeiten, Kenntnisse und Fähigkeiten zu den Oberpunkten.
+
+
 Die zweiten Stichpunkte (unter den passenden Lernfeldern der Berufsschule) sind die Unterpunkte aus dem Prüfungskatalog zu den Oberpunkten.
-Planen, Vorbereiten und Durchführen von Arbeitsaufgaben in Abstimmung mit den kundenspezifischen Geschäfts- und Leistungsprozessen
-Grundsätze und Methoden des Projektmanagements anwenden
-Auftragsunterlagen und Durchführbarkeit des Auftrags prüfen, insbesondere im Hinblick auf rechtliche, wirtschaftliche und terminliche Vorgaben, und den Auftrag mit den betrieblichen Prozessen und Möglichkeiten abstimmen
+Planen, Vorbereiten und Durchführen von Arbeitsaufgaben in Abstimmung mit den kundenspezifischen Geschäfts- und Leistungsprozessen.
+
+# Grundsätze und Methoden des Projektmanagements anwenden
+Auftragsunterlagen und Durchführbarkeit des Auftrags prüfen, insbesondere im Hinblick auf rechtliche, wirtschaftliche und terminliche Vorgaben, und den Auftrag mit den betrieblichen Prozessen und Möglichkeiten abstimmen.
 Zeitplan und Reihenfolge der Arbeitsschritte für den eigenen Arbeitsbereich festlegen
 Termine planen und abstimmen sowie Terminüberwachung durchführen
 Probleme analysieren und als Aufgabe definieren sowie Lösungsalternativen entwickeln und beurteilen
@@ -73,7 +73,7 @@ Betriebswirtschaftlich relevante Daten erheben und bewerten und dabei Geschäfts
 Eigene Vorgehensweise sowie die Aufgabendurchführung im Team reflektieren und bei der Verbesserung der Arbeitsprozesse mitwirken
 Passende Lernfelder der Berufsschule: LF 1, LF 2, LF 3, LF 5
 
-Merkmale und Methoden des Projektmanagements kennen, beurteilen, ergänzen können
+# Merkmale und Methoden des Projektmanagements kennen, beurteilen, ergänzen können
 Arbeitsaufgaben im Rahmen von Geschäfts- und Leistungsprozessen planen, vorbereiten und durchführen
 Machbarkeit von Projekten beurteilen können
 Informieren und Beraten von Kunden und Kundinnen
@@ -82,9 +82,11 @@ Bedarfe von Kunden und Kundinnen feststellen sowie Zielgruppen unterscheiden
 Kunden unter Beachtung von Kommunikationsregeln informieren sowie Sachverhalte präsentieren und deutsche und englische Fachbegriffe anwenden
 Maßnahmen für Marketing und Vertrieb unterstützen (betrieblich)
 Informationsquellen auch in englischer Sprache aufgabenbezogen auswerten und für die Kundeninformation nutzen
+
+
 Passende Lernfelder der Berufsschule: LF 1, LF 2
 
-Marktsituationen bewerten können
+# Marktsituationen bewerten können
 Zielgruppengerechte Bedarfsanalyse durchführen können
 Zielgerichtete Methoden zur Kundenberatung kennen und beurteilen können
 Informationen aufbereiten und präsentieren sowie Quellen auswerten können
@@ -94,7 +96,7 @@ Marktgängige IT-Systeme für unterschiedliche Einsatzbereiche hinsichtlich Leis
 Angebote zu IT-Komponenten, IT-Produkten und IT-Dienstleistungen einholen und bewerten sowie Spezifikationen und Konditionen vergleichen
 Passende Lernfelder der Berufsschule: LF 2, LF 3
 
-Marktgängige IT-Systeme kennen, unterscheiden und beurteilen können
+# Marktgängige IT-Systeme kennen, unterscheiden und beurteilen können
 Einsatzbereiche für IT-Systeme identifizieren können
 Leistungsfähigkeit und Energieeffizienz von IT-Systemen bestimmen, analysieren und beurteilen können
 Wirtschaftlichkeit von IT-Systemen bestimmen und beurteilen können
@@ -103,7 +105,7 @@ IT-Systeme zur Bearbeitung betrieblicher Fachaufgaben analysieren sowie unter Be
 Programmiersprachen, insbesondere prozedurale und objektorientierte Programmiersprachen, unterscheiden
 Passende Lernfelder der Berufsschule: LF 5
 
-IT-Systeme unter Berücksichtigung des IT-Umfeldes konzeptionieren, konfigurieren, testen und dokumentieren können
+# IT-Systeme unter Berücksichtigung des IT-Umfeldes konzeptionieren, konfigurieren, testen und dokumentieren können
 Bedarfsgerechte Auswahl von Hardware vornehmen und begründen können
 Bedarfsgerechte Auswahl von Software vornehmen und begründen können
 Urheberrechtsgesetz kennen und Lizenzmodelle unterscheiden können
@@ -115,14 +117,14 @@ Durchführen und Dokumentieren von qualitätssichernden Maßnahmen
 Betriebliche Qualitätssicherungssysteme im eigenen Arbeitsbereich anwenden und Qualiätssicherungsmaßnahmen projektbegleitend durchführen und dokumentieren
 Passende Lernfelder der Berufsschule: LF 3, LF 5, LF 6
 
-Grundverständnis zu folgenden Fachbegriffen nachweisen
+# Grundverständnis zu folgenden Fachbegriffen nachweisen
 Maßnahmen des Qualitätsmanagements kennen, planen und anwenden
 Umsetzen, Integrieren und Prüfen von Maßnahmen zur IT-Sicherheit und zum Datenschutz
 Betriebliche Vorgaben und rechtliche Regelungen zur IT-Sicherheit und zum Datenschutz einhalten
 Sicherheitsanforderungen von IT-Systemen analysieren und Maßnahmen zur IT-Sicherheit ableiten, abstimmen, umsetzen und evaluieren
 Passende Lernfelder der Berufsschule: LF 4
 
-Betriebliche Regelungen zur IT-Sicherheit auf Grundschutzniveau im eigenen Arbeitsbereich analysieren, anwenden und ihre Einhaltung überprüfen
+# Betriebliche Regelungen zur IT-Sicherheit auf Grundschutzniveau im eigenen Arbeitsbereich analysieren, anwenden und ihre Einhaltung überprüfen
 Schutzbedarfsanalyse im eigenen Arbeitsbereich durchführen
 Modellierung eines arbeitsplatzbezogenen Sicherheitskonzeptes nach BSI IT-Grundschutz
 Umsetzung des arbeitsplatzbezogenen Sicherheitskonzeptes unterstützen können
@@ -135,7 +137,7 @@ Leistungen und Dokumentationen an Kunden und Kundinnen übergeben sowie Abnahmep
 Kosten für erbrachte Leistungen erfassen sowie im Zeitvergleich und im Soll-Ist-Vergleich bewerten
 Passende Lernfelder der Berufsschule: LF 2, LF 3, LF 6
 
-Vertragsarten, Vertragsbestandteile und Vertragsstörungen kennen und unterscheiden
+# Vertragsarten, Vertragsbestandteile und Vertragsstörungen kennen und unterscheiden
 Zielsetzungen des Unternehmens dem Leitbild entnehmen können
 Abstimmen der dokumentierten Vorgaben zur Leistungserbringung während des gesamten Zeitraums mit dem Auftraggeber
 Umsetzungsvarianten der Leistungserbringung kennen
@@ -150,50 +152,49 @@ Die folgenden Punkte sind konkrete Prüfungsinhalte aus dem Prüfungskatalog, de
 Letzte Aktualisierung: 06.11.2023
 
 
-Projektmanagement ^
-Nötige Kenntnisse
-Initiieren, Planen, Steuern, Kontrollieren und Abschließen von Projekten nach aktuell gängigen Projektmanagementstandards
-Abklären der Rahmenbedingungen unter Berücksichtigung von Datensicherheit und Datenschutz (wirtschaftlich, technisch, rechtlich, terminlich)
-Projekt: zeitlich befristet, relativ innovativ, risikobehaftet, erhebliche Komplexität, erfordert ein Projektmanagement
-nach DIN 69901: Vorhaben, das im Wesentlichen durch Einmaligkeit der Bedingungen in ihrer Gesamtheit gekennzeichnet ist
-nach PRINCE2: a temporary organization that is created for the purpose of delivering one or more business products according to an agreed Business Case
-Magisches Dreieck: Qualität, Kosten, Zeit
-Qualität: Übereinstimmung mit Anforderungen
-SMARTe Ziele: spezifisch, messbar, attraktiv, realistisch, terminiert
-4-Phasen-Modell
-Projektdefinition
-Projektplanung
-Projektdurchführung und -controlling
-Projektabschluss
-Kick-Off-Meeting
-Nach erfolgter Planung vor Start der Projektdurchführung.
-Projektstrukturplan wird erstellt.
-Meilensteine: wichtige Ereignisse des Projekts werden visualisiert und geplant
-Aufgaben/Inhalte/Verbindlichkeit von Lasten-/Pflichtenheften und Angeboten
-Lastenheft: was/wofür?
-Pflichtenheft: wie/womit?
-Definieren von Aufgaben, Rollen und Verantwortlichkeiten für alle Projektbeteiligten, z.B.:
-Projekt-Auftraggeber
-Projektleiter
-Projekt-Steuerkreis
-Projektmitarbeiter
-Stakeholder: Gruppen oder Personen, die irgendein Interesse am Projekt haben.
-Aufgaben eines Projektleiters: Mitwirkung bei der Zieldefinition, Koordination des Teams, Aufgabenverteilung innerhalb des Teams, Überwachung der Projektfortschritte, Kommunikation, Projektcontrolling, Dokumentation, Aufwandschätzung, Vorlage der Ergebnisse beim Lenkungsausschuss, Eskalation von Konfliktsituationen, Erstellen des Projektabschlussberichtes
-Analysieren im Sinne von Erkennen und Einordnen
-Problemlösungsvarianten entwickeln und Probleme beseitigen z.B. durch
-Situationsanalyse
-Problemeingrenzung
-Aufzeigen von Alternativen
-Auswahl von Lösungen
-Analysieren der Chancen und Risiken der ausgewählten Lösung anhand vorher definierter Beurteilungskriterien
-Root-Cause-Analysis
-5 Whys
-Kundenkommunikation
-Fehlermanagement, Störungsmanagement
-Supportanfragen, Bearbeitungsstatus, z.B. mittels Ticketsystem
-Ticketsystem: Verteilung der Aufgaben, Koordination der Beteiligten, Historie, Dokumentation, Auswertungen
+# Projektmanagement
+## Nötige Kenntnisse
+* Initiieren, Planen, Steuern, Kontrollieren und Abschließen von Projekten nach aktuell gängigen
+* Projektmanagementstandards
+* Abklären der Rahmenbedingungen unter Berücksichtigung von Datensicherheit und Datenschutz (wirtschaftlich, technisch, rechtlich, terminlich)
+* Projekt: zeitlich befristet, relativ innovativ, risikobehaftet, erhebliche Komplexität, erfordert ein Projektmanagement nach DIN 69901: Vorhaben, das im Wesentlichen durch Einmaligkeit der Bedingungen in ihrer Gesamtheit gekennzeichnet ist nach PRINCE2: a temporary organization that is created for the purpose of delivering one or more business products according to an agreed Business Case
+* Magisches Dreieck: Qualität, Kosten, Zeit
+* Qualität: Übereinstimmung mit Anforderungen
+* SMARTe Ziele: spezifisch, messbar, attraktiv, realistisch, terminiert
+* 4-Phasen-Modell
+* Projektdefinition
+* Projektplanung
+* Projektdurchführung und -controlling
+* Projektabschluss
+* Kick-Off-Meeting
+* Nach erfolgter Planung vor Start der Projektdurchführung.
+* Projektstrukturplan wird erstellt.
+* Meilensteine: wichtige Ereignisse des Projekts werden visualisiert und geplant
+* Aufgaben/Inhalte/Verbindlichkeit von Lasten-/Pflichtenheften und Angeboten
+* Lastenheft: was/wofür?
+* Pflichtenheft: wie/womit?
+* Definieren von Aufgaben, Rollen und Verantwortlichkeiten für alle Projektbeteiligten, z.B.:
+* Projekt-Auftraggeber
+* Projektleiter
+* Projekt-Steuerkreis
+* Projektmitarbeiter
+* Stakeholder: Gruppen oder Personen, die irgendein Interesse am Projekt haben.
+* Aufgaben eines Projektleiters: Mitwirkung bei der Zieldefinition, Koordination des Teams, Aufgabenverteilung innerhalb des Teams, Überwachung der Projektfortschritte, Kommunikation, Projektcontrolling, Dokumentation, Aufwandschätzung, Vorlage der Ergebnisse beim Lenkungsausschuss, Eskalation von Konfliktsituationen, Erstellen des Projektabschlussberichtes
+* Analysieren im Sinne von Erkennen und Einordnen
+* Problemlösungsvarianten entwickeln und Probleme beseitigen z.B. durch
+* Situationsanalyse
+* Problemeingrenzung
+* Aufzeigen von Alternativen
+* Auswahl von Lösungen
+* Analysieren der Chancen und Risiken der ausgewählten Lösung anhand vorher definierter Beurteilungskriterien
+* Root-Cause-Analysis
+* 5 Whys
+* Kundenkommunikation
+* Fehlermanagement, Störungsmanagement
+* Supportanfragen, Bearbeitungsstatus, z.B. mittels Ticketsystem
+* Ticketsystem: Verteilung der Aufgaben, Koordination der Beteiligten, Historie, Dokumentation, Auswertungen
 
-Methoden und Modelle ^
+# Methoden und Modelle
 Unterscheiden verschiedener Projektmanagementmethoden und Vorgehensmodelle
 Projektphasen, z.B. Analyse, Entwurf, Implementierung, Test, Betrieb
 „klassisch“: Wasserfall, V-Modell, Spiralmodell
@@ -235,7 +236,7 @@ Kanban Board
 Gantt-Diagramme
 Kanban-Board: WIP-Limit (work in progress), Pull statt Push, Spalten entsprechen Prozessschritten
 
-Teamarbeit ^
+# Teamarbeit
 Teambildung und -entwicklung
 Prozess der Teambildung nach Bruce Tuckman: Forming, Storming, Norming, Performing, (Adjourning)
 Team als soziales Gefüge verstehen („social awareness“)
@@ -269,7 +270,7 @@ gesetzliche/vertragliche Fristen
 notwendige Unterlagen
 Diversity, Interkulturalität, Fehlerkultur
 
-Wirtschaftlichkeit ^
+# Wirtschaftlichkeit
 Machbarkeitsanalyse: technisch, organisatorisch, wirtschaftlich, zeitlich, rechtlich
 Make-or-buy-Entscheidung
 Risikoanalyse
@@ -314,7 +315,7 @@ zweiseitiger Handelskauf und Rechte/Pflichten
 TCO erläutern
 Rabatt und Skonto berechnen
 
-Märkte und Bedarfe ^
+# Märkte und Bedarfe ^
 Volkswirtschaftliche Sektoren: primär, sekundär, tertiär
 Betriebliche Grundfunktionen: Beschaffung, Produktion, Vertrieb, Finanzierung
 Marktformen, z.B. Monopol, Oligopol, Polypol, Käufer-/Verkäufermarkt, Marktgleichgewicht
@@ -339,7 +340,7 @@ Produktqualitäten
 Unternehmens-/Gesellschaftsformen, z.B. AG, GmbH, SE, UG, GbR, OHG, KG, Ltd., e.V., e.Kfm., e.G., V.V.a.G.
 Kriterien: Personen-/Kapitalgesellschaft, juristisch/natürlich, Organe/Gesellschafter/Eigentümer, Haftung, Stammkapital, Firma
 
-Kundenberatung/Präsentieren ^
+# Kundenberatung/Präsentieren ^
 Argumentations- und Präsentationstechniken
 zielgruppengerechte und lösungsorientierte Vorstellung von Produkten und Ergebnissen
 Medien zur Kundenpräsentation und -information, z.B. Kundengespräch via Webinar
@@ -360,7 +361,7 @@ Fachliteratur
 technische Dokumentationen
 Berücksichtigung der geltenden Compliance-Regelungen, Ethik
 
-Marketing ^
+# Marketing ^
 Stärken-Schwächen-Analyse (SWOT etc.)
 ABC-Analyse
 Begleiten von IT-Vertriebsprozessen
@@ -386,7 +387,7 @@ Outsourcing (organisatorisch) vs. Offshoring (geografisch)
 Geschäftsmodelle im Internet
 Freemium, In-Game-Payment
 
-Angebotsvergleich ^
+# Angebotsvergleich ^
 Nötige Kenntnisse
 Potenziale von IT-Systemen bzw. einem Verbund verschiedener Arten erkennen
 IT-Systeme anhand ihres wirtschaftlichen Nutzens zum Unternehmenserfolg bewerten
@@ -414,7 +415,7 @@ Kalkulation
 Handelskalkulation: Listen-, Ziel-, Bareinkaufspreis, Bezugspreis, Selbstkosten, Bar-, Ziel-, Listenverkaufspreis
 Zuschlagskalkulation: Materialeinzel-, Materialgemein-, Lohneinzel-, Lohngemeinkosten, Herstellkosten, Verwaltungs-, Vertriebsgemeinkosten
 
-Hardware ^
+# Hardware ^
 Nötige Kenntnisse
 Funktionale, ökonomische, ökologische, soziale Aspekte bewerten
 Installation und Konfiguration der Hardware
@@ -494,7 +495,7 @@ Leistungsaufnahme (W = P * t)
 Barcodes, QR-Codes, RFID
 Asset Tag vs. Service Tag
 
-Netzwerktechnik ^
+# Netzwerktechnik ^
 ISO/OSI-Modell (7 Schichten) im Vergleich zum TCP/IP-Modell (4 Schichten)
 Netzwerkkomponenten
 Netzwerkkomponenten, z.B. Router, Switch, Access-Point
@@ -555,7 +556,7 @@ vs. On Premises
 Clouds: Public, Private, Hybrid, Community, Virtual Private, Multi
 Vorteile u.a.: Skalierbarkeit, Lastverteilung, Ausfallsicherheit
 
-Multimedia ^
+# Multimedia ^
 Zeichensätze kennen und Unterschiede aufzeigen
 ASCII, Unicode, UTF-8 kennen und erklären
 Kompression
@@ -579,7 +580,7 @@ Längs-/Querparität berechnen
 mögliche Aufgaben
 Dateigrößen von Bildern/Audio/Videos berechnen
 
-Internet ^
+# Internet ^
 Aufbau von URL/URI/URN
 Schema, Benutzer/Passwort, Domain, Pfad, Query, Fragment etc.
 Beispiele für Browser/Webserver/Web-Programmiersprachen/(serverseitige) Scriptsprachen
@@ -599,7 +600,7 @@ jQuery und andere Frameworks
 HTML5, CSS3
 Audio-/Videoeinbettung/-unterstützung
 
-Software ^
+# Software ^
 Einteilung und Klassifikation von Anwendungssystemen
 ERP, CMS, CRM, PSP, CAD, CASE, ECM, DMS, OMS
 Anwendungssoftware
@@ -638,7 +639,7 @@ MOF
 ISO 20000
 Client-Server-Modell
 
-Betriebssysteme ^
+# Betriebssysteme ^
 Typen von Multitasking erläutern (kooperativ vs. präemptiv)
 Prozess vs. Task vs. Thread
 verschiedene Betriebssysteme kennen (Linux, Windows, Android, iOS, Windows Phone)
@@ -659,7 +660,7 @@ Konsolenbefehle für Dateioperationen und Netzwerktroubleshooting/Namensauflösu
 dir, ls, mkdir, alias, del, cp, copy, chmod
 ipconfig, ifconfig, getmac, iprouteZ, arp, ping, traceroute, tracert, nslookup, netsh
 
-Softwareentwicklung ^
+# Softwareentwicklung ^
 Nötige Kenntnisse
 Vor- und Nachteile verschiedener Programmierparadigmen kennen und Programmiersprachen nach Sprachhöhe unterscheiden
 Identifikation und Auswahl einer für das jeweilige „Realweltproblem“ passenden Sprache
@@ -696,7 +697,7 @@ SELECT bezogen auf eine Tabelle (inkl. Klauseln wie WHERE, ORDER BY, GROUP BY)
 Aggregatsfunktionen wie SUM, COUNT, AVG
 Normalisierung
 
-Qualitätssicherung ^
+# Qualitätssicherung ^
 Qualitätsbegriff nach ISO 9000
 Modelle und Standards einordnen, z.B.:
 QS-Normen ISO 9000-9004
@@ -718,7 +719,7 @@ Komponenten-/Modul-/Unit-Tests vs. Integrationstests vs. Systemtests
 Abnahmetest
 Lasttest
 
-IT-Sicherheit ^
+# IT-Sicherheit ^
 Nötige Kenntnisse
 Nutzen und stetes Anwenden der betriebseigenen Regelungen zur IT-Sicherheit und für den Datenschutz
 Anwenden des organisationsinternen Prozesses zur Gewährleistung der IT-Sicherheit und des Datenschutzes (IT-Sicherheitsmanagement)
@@ -792,7 +793,7 @@ Authentifizierung vs. Autorisierung
 MFA
 Passwort-Policy
 
-Datenschutz ^
+# Datenschutz ^
 Datenschutzgesetze – national und auf EU-Ebene, z.B. DSGVO, BDSG
 Definition von personenbezogenen Daten
 Grundsätze des Datenschutzes (Art. 5)
@@ -819,7 +820,7 @@ Recht am geschriebenen/gesprochenen Wort
 Recht auf Schutz vor Imitation der Persönlichkeit
 Recht auf Schutz der Intim-, Privat- und Geheimsphäre
 
-Verträge ^
+# Verträge ^
 Vertragsarten
 Kaufvertrag
 Lizenzvertrag
@@ -845,7 +846,7 @@ Inhalte, Rechte/Pflichten
 kollektives Arbeitsrecht
 verschiedene Versicherungen (z.B. Haftpflicht, Berufsunfähigkeit, Krankenversicherung, Rechtsschutz, Hausrat, KFZ, Gebäudeversicherung usw.)
 
-Leistungserbringung ^
+# Leistungserbringung ^
 Nötige Kenntnisse
 Abstimmen der zu erwartenden Ergebnisse hinsichtlich betrieblicher und vertraglicher Rahmenbedingungen mit dem Auftraggeber
 Abstimmen der dokumentierten Vorgaben zur Leistungserbringung während des gesamten Zeitraums mit dem Auftraggeber
@@ -903,7 +904,7 @@ Lessons Learned
 Doppelte Buchführung
 Fort- und Weiterbildung, Umschulung
 
-Change Management ^
+# Change Management ^
 Basiskenntnisse des Veränderungsmanagements
 Darstellung der Veränderungsschritte, z.B. anhand der sieben Phasen eines Change-Prozesses
 Change Management (Prozess zur Umsetzung von Veränderungen in Unternehmen) z.B. nach Lewin (Unfreeze, Change, Refreeze)
@@ -935,26 +936,12 @@ Social Media
  GitHub
  LinkedIn
  Xing
-Neueste Beiträge
-Projektdokumentation von Marco Suppelna (mit 96% bewertet)
-2. September 2024
-Projektdokumentation von Luca Wlcek inkl. Projektantrag (mit 98% bewertet)
-28. August 2024
-Projektdokumentation Fachinformatiker Daten- und Prozessanalyse von Maik Walter (mit 93% bewertet)
-26. August 2024
-Unterweisungsentwurf zur Ausbilder-Eignungsprüfung von Muhammed Ali Ciftci (für Fachinformatiker Anwendungsentwicklung)
-23. August 2024
-Lastenheft und Pflichtenheft – IT-Berufe-Podcast #189
-12. August 2024
-Neueste Kommentare
+
+
+# Links
+
 Stefan Macke bei Themenfindung für das Abschlussprojekt – Anwendungsentwickler-Podcast #24
 Azubine bei Themenfindung für das Abschlussprojekt – Anwendungsentwickler-Podcast #24
 Stefan Macke bei Rückblick auf die IHK-Sommerprüfung 2019 – Anwendungsentwickler-Podcast #139
 Stefan Macke bei Inhalte der Projektdokumentation
-Jörg Lehmann bei Rückblick auf die IHK-Sommerprüfung 2019 – Anwendungsentwickler-Podcast #139
-Schlagwörter
-1. Ausbildungsjahr 2. Ausbildungsjahr 3. Ausbildungsjahr Abschlussprojekt Abschlussprüfung Administration Agile Softwareentwicklung Ausbildung Beispielanträge Beispieldokumentationen Beispielpräsentationen Buchclub Buchempfehlungen Codequalität Datenbanken Fachbücher Fachgespräch FAQ Funktionale Programmierung Hilfen für Ausbilder Häufige Fragen Interview Java Karriere Konferenzen LaTeX Linux LZK Mündliche Prüfung Netzwerke Netzwerkgrundlagen Objektorientierung Prinzipien Programmierung Projektantrag Projektdokumentation Projektpräsentation Prüfungsvorbereitung Prüfung Teil 1 Rechtliches Schriftliche Abschlussprüfung Testen Tipps Unit-Tests Wissenshäppchen
-Der IT-Berufe-Podcast wird seit 2015 betrieben von Stefan Macke.
-Cookies verwalten
-Einstellungen für Datenschutz und Cookies
-Von Google verwaltet. Entspricht dem IAB-TCF. CMP-ID: 300
+
